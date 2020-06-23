@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.page-container {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+header {
+  width: 100%;
+  padding: 1rem 2rem;
+  position: fixed;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  flex-basis: 30%;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.nav-links {
+  text-decoration: none;
+  color: inherit;
+}
+
+.burger {
+  height: 15px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.line,
+.line-1,
+.line-2 {
+  width: 1.2rem;
+  height: 0.2rem;
+  background: #000;
+}
+
+.page-section {
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 4rem 0rem;
+}
+
+.page-section h2 {
+  font-size: 2.5rem;
+}
+
+.order-button,
+.learn-button {
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  width: 250px;
+  height: 2.5rem;
+  border-radius: 3rem;
+}
+
+.order-button {
+  background: #4d4d4d;
+  color: #fff;
+}
+
+.learn-button {
+  background: #eee;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem 0rem;
+}
